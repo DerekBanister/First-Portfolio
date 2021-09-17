@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 main{
-    background-color: black;
+    background-color:silver;
 }
 
 .header {
@@ -26,6 +26,7 @@ nav{
     justify-content: center;
     padding: 5px 20%;
     border-bottom: 10px solid black;
+    border-top: 10px solid black;
     background-color:whitesmoke;
 }
 li {
@@ -79,6 +80,12 @@ a{
 h3{
     text-decoration: underline;
 }
+#contact{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 
 
 

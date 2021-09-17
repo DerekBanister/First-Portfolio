@@ -11,7 +11,7 @@ This website is my first portfolio made in my coding bootcamp hosted by UC Berke
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://derekbanister.github.io/First-Portfolio/)
 
 
 ## Authors

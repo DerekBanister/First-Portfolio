@@ -7,7 +7,6 @@ This website is my first portfolio made in my coding bootcamp hosted by UC Berke
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Deployed Link
 
@@ -16,9 +15,9 @@ This website is my first portfolio made in my coding bootcamp hosted by UC Berke
 
 ## Authors
 
-* **YOUR NAME** 
+* Derek Banister
 
-- [Link to Portfolio Site](#)
-- [Link to Github](https://github.com/)
-- [Link to LinkedIn](https://www.linkedin.com/)
+- [Link to Portfolio Site](https://derekbanister.github.io/First-Portfolio/)
+- [Link to Github](https://github.com/DerekBanister)
+- [Link to LinkedIn](https://www.linkedin.com/in/derek-banister/)
 

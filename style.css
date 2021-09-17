@@ -7,6 +7,10 @@
 }
 main{
     background-color:silver;
+    flex-wrap: wrap;
+}
+.Derek{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .header {
@@ -15,7 +19,6 @@ main{
     padding: 50px;
     background-color: silver;
     color: black;
-    font-family: monospace;
     font-weight: 100px;
     font-size: 50px;
 
@@ -29,6 +32,7 @@ nav{
     border-top: 10px solid black;
     background-color:silver;
 }
+
 li {
     display: inline;
     justify-content: space-between;
@@ -45,7 +49,10 @@ section{
     font-size: 25px;
     width: 70%;
     margin: 20px auto;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
     border-bottom: 5px solid black;
+    border-left: 5px solid black;
     background-color: silver;
     text-align: center;
 }
@@ -55,15 +62,31 @@ a{
     font-size: 25px;
 }
 
+h2{
+    text-decoration: underline;
+}
+
 .db{
     display: block;
-    border-width: 10px;
-    border: silver;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
     margin-left: auto;
     margin-right: auto;
     height: 300px;
     width: 500px;
+    border-radius: 5%;
     
+}
+
+.pic1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 550px;
+    border-style:solid;
+    border-radius: 5%;
 }
 
 .pics{
@@ -72,22 +95,27 @@ a{
     margin-right: auto;
     height: 300px;
     width: 400px;
+    border-style:solid;
+    border-radius: 5%;
 }
-.pic1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    width: 500px;
-}
+
 h3{
     text-decoration: underline;
+    font-size: 30px;
 }
+
 #contact{
-    display: flex;
     justify-content: center;
     align-content: center;
+    padding: 30px;
 }
+form{
+    font-size: 16px;
+    
+}
+
+
+
 
 
 

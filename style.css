@@ -11,7 +11,7 @@ main{
 }
 .Derek{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 150px;
+    font-size: 13vw;
     font-weight: bold;
 
 }
@@ -139,11 +139,7 @@ hr{
     height: 5px;
     border: none;
 }
-@media screen and (max-width:480px){
-    .header{
-        font-size: 50px;
-    }
-}
+
 
 
 

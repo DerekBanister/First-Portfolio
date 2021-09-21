@@ -40,7 +40,6 @@ nav{
 
 li {
     display: inline;
-    justify-content: space-between;
     text-decoration: none;
     font-weight: 500;
     font-size: 26px;
@@ -118,7 +117,26 @@ h3{
 }
 form{
     font-size: 16px;
+    background-color: silver;
+    padding: 10px;
     
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+input[type=submit]{
+    background-color: black;
+    color: silver;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 15px;
 }
 .pic2{
     display: inline-flex;
@@ -135,12 +153,7 @@ hr{
     height: 5px;
     border: none;
 }
-footer{
-    display: inline-flex;
-    text-align: center;
-    justify-content: center;
 
-}
 .fa{
     padding: 20px;
     font-size: 20px;
@@ -181,7 +194,7 @@ footer{
     }
   }
   @media screen and (max-width: 676px){
-      nav ul{
+      li{
           flex-direction: column;
       }
   }

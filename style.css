@@ -11,7 +11,7 @@ main{
 }
 .Derek{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 120px;
+    font-size: 100px;
     font-weight: bold;
 
 }
@@ -167,17 +167,17 @@ footer{
 
 @media screen and (max-width: 676px) {
     .db {
-      width: 300px;
+      width: 250px;
     }
   }
   @media screen and (max-width: 676px) {
     .pic1 {
-      width: 300px;
+      width: 250px;
     }
   }
   @media screen and (max-width: 676px) {
     .pics {
-      width: 300px;
+      width: 250px;
     }
   }
   @media screen and (max-width: 676px){

@@ -11,7 +11,7 @@ main{
 }
 .Derek{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 85px;
+    font-size: 100px;
     font-weight: bold;
 
 }
@@ -21,6 +21,7 @@ p{
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 50px;
     background-color: silver;
@@ -30,7 +31,9 @@ p{
 
 nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     padding: 5px 20%;
     border-bottom: 10px solid black;
     border-top: 10px solid black;
@@ -193,15 +196,25 @@ hr{
     }
   }
   @media screen and (max-width: 676px){
-      li{
-          flex-direction: column;
+    .header h1{
+        font-size: 18vw;
+    }
+  }
+  @media screen and (max-width:1550px){
+      .links li{
+          display: block;
+          float: none;
+          width: 100%;
+          margin: auto;
       }
   }
-  @media screen and (max-width: 676px){
-    .header{
-        font-size: 80vw;
-    }
-}
+  @media screen and (max-width:676px){
+      #me p{
+          font-size: 3vw;
+      }
+  }
+
+
 
 
 

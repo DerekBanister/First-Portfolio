@@ -23,7 +23,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px;
+    padding: 5px;
     background-color: silver;
     color: black;
     font-weight: 100px;
@@ -182,22 +182,24 @@ hr{
 
 @media screen and (max-width: 676px) {
     .db {
-      width: 250px;
+      width: 200px;
     }
   }
   @media screen and (max-width: 676px) {
     .pic1 {
-      width: 250px;
+      width: 200px;
     }
   }
   @media screen and (max-width: 676px) {
     .pics {
-      width: 250px;
+      width: 200px;
     }
   }
   @media screen and (max-width: 676px){
     .header h1{
-        font-size: 18vw;
+        justify-content: center;
+        text-align: center;
+        font-size: 14vw;
     }
   }
   @media screen and (max-width:1550px){
@@ -210,6 +212,11 @@ hr{
   }
   @media screen and (max-width:676px){
       #me p{
+          font-size: 4vw;
+      }
+  }
+  @media screen and (max-width:676px){
+      section h3{
           font-size: 5vw;
       }
   }

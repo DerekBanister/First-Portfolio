@@ -2,7 +2,7 @@
 
 This website is my first portfolio made in my coding bootcamp hosted by UC Berkeley Extension
 
-
+![My Website](readme.png)
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)

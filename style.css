@@ -46,12 +46,14 @@ li {
     font-weight: 500;
     font-size: 26px;
     margin: 50px;
-    border-style: double;
+    border-style: outset;
+    border-color: black;
     border-radius: 5px;
     
     
 }
 li:hover{
+    border-style: none;
     color: silver ;
 }
 
@@ -140,6 +142,10 @@ input[type=submit]{
     cursor: pointer;
     font-size: 15px;
 }
+input[type=submit]:hover{
+    opacity: 0.7;
+}
+
 .pic2{
     display: inline-flex;
     margin-left: auto;
@@ -179,6 +185,9 @@ hr{
 .fa:hover {
     opacity: 0.7;
 }
+#top:hover{
+    opacity: 0.5;
+}
 
 @media screen and (max-width: 676px) {
     .db {
@@ -194,6 +203,12 @@ hr{
     .pics {
       width: 200px;
     }
+}
+    @media screen and (max-width: 676px) {
+    .pic2 {
+        width: 200px;
+        height: 200px;
+        }
   }
   @media screen and (max-width: 676px){
     .header h1{
@@ -208,10 +223,12 @@ hr{
           float: none;
           width: 100%;
           margin: auto;
+          padding: none;
+          
       }
   }
-  @media screen and (max-width:676px){
-      #me p{
+  @media screen and (max-width:750px){
+      #me p {
           font-size: 4vw;
       }
   }
@@ -220,6 +237,21 @@ hr{
           font-size: 5vw;
       }
   }
+  @media screen and (max-width:676px) {
+      .links a{
+          font-size: 4vw;
+          font-weight: bold;
+      }
+      
+  }
+  @media screen and (max-width:676px) {
+    .fa{
+       width: 20vw; 
+       margin: auto;
+    }
+      
+  }
+  
 
 
 
